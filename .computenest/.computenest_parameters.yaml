@@ -1,0 +1,11 @@
+RuntimeType: Container
+ServiceType: private
+ArtifactSourceType: DockerCompose
+ServiceBuildRegion: ap-southeast-1
+RepoName: JJGGu/LLaMA-Factory
+DockerComposeEnvPath: .env
+RegionId: cn-hangzhou
+DockerComposeYamlPath: docker/docker-cuda/docker-compose.yml
+Owner: JJGGu
+Branch: main
+Platform: github
